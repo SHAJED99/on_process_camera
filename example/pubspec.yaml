@@ -1,0 +1,30 @@
+name: example
+description: 'A new Flutter project.'
+
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.8.0
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.8
+
+  on_process_camera:
+    path: ../
+  # For lib/liveness_flow.dart (same versions as the SDK)
+  flutter_bloc: ^9.1.1
+  flutter_image_compress: ^2.4.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^5.0.0
+
+flutter:
+  uses-material-design: true
