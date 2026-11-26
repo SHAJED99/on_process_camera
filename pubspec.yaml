@@ -1,13 +1,24 @@
 name: on_process_camera
 description: >-
-  Camera widget with ML Kit face liveliness analysis, cropped photo capture and
-  video recording, used by the onboarding SDK's eKYC screens.
-version: 0.0.1
-publish_to: none
+  Flutter camera widget with ML Kit face liveness analysis, photo capture
+  cropped to the visible preview, video recording, zoom, focus and lens switch.
+version: 0.1.0
+repository: https://github.com/SHAJED99/on_process_camera
+issue_tracker: https://github.com/SHAJED99/on_process_camera/issues
+topics:
+  - camera
+  - face-detection
+  - mlkit
+  - liveness
+  - video
 
 environment:
   sdk: ^3.8.0
   flutter: '>=3.32.0' # Dart 3.8; AppLifecycleListener needs >=3.13
+
+platforms:
+  android:
+  ios:
 
 dependencies:
   flutter:

@@ -1,0 +1,14 @@
+CLAUDE.md
+.vscode/
+.metadata
+example/build/
+example/.dart_tool/
+# A .pubignore replaces .gitignore in this folder, so repeat its entries
+/pubspec.lock
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+build/
+.idea/
+*.iml
+.DS_Store

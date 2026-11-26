@@ -1,5 +1,5 @@
 name: example
-description: 'A new Flutter project.'
+description: 'Test bench app for the on_process_camera package.'
 
 publish_to: 'none'
 

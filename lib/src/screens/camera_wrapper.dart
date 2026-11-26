@@ -137,6 +137,8 @@ class _OnCameraState extends State<OnCamera> {
   void didChangeDependencies() {
     super.didChangeDependencies();
     // Tickers are disabled while another route fully covers this one
+    // TickerMode.valuesOf needs Flutter >=3.41; keep .of for older SDKs
+    // ignore: deprecated_member_use
     controller.updateVisibility(isRouteActive: TickerMode.of(context));
   }
 
