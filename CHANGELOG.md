@@ -1,3 +1,8 @@
+## 0.1.1
+
+- Raised the `camera` lower bound to 0.11.3, the first version with `enablePersistentRecording`.
+- Kept `package:flutter/material.dart` so the package still works on Flutter <3.47.
+
 ## 0.1.0
 
 First public release.
