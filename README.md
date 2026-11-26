@@ -69,6 +69,7 @@ Only Android and iOS are supported (Google ML Kit is mobile-only).
   ```
 
 - The camera and microphone permissions come from the camera plugin.
+- If your app resolves `permission_handler` 13 or newer, set `compileSdk` to 37 in `android/app/build.gradle`.
 
 ### iOS
 

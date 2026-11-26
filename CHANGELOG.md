@@ -1,3 +1,8 @@
+## 0.1.2
+
+- Dependency ranges now also allow the latest majors: camera 0.12, camera_android_camerax 0.7, google_mlkit_face_detection / google_mlkit_commons 1.x, permission_handler 13, image_cropper 14 and native_image_cropper 0.8. Older Flutter versions keep resolving the previous majors.
+- With permission_handler 13, Android apps must use `compileSdk` 37.
+
 ## 0.1.1
 
 - Raised the `camera` lower bound to 0.11.3, the first version with `enablePersistentRecording`.
